@@ -21,16 +21,16 @@ export const Home = () => {
         </div>
 
         <div className="relative z-10 max-w-4xl text-center">
-          <FadeIn direction="down">
-            <span className="inline-block text-xs font-semibold uppercase tracking-[0.3em] text-gold mb-6">
-              {CLINIC_INFO.locations.join(' • ')}
-            </span>
-          </FadeIn>
           <FadeIn delay={0.2}>
-            <h1 className="font-serif text-5xl md:text-8xl text-charcoal leading-[1.1] mb-8">
+            <h1 className="font-serif text-5xl md:text-8xl text-charcoal leading-[1.1] mb-8 mt-5">
               {CLINIC_INFO.tagline.split('in')[0]} <br />
               <span className="italic">in {CLINIC_INFO.tagline.split('in')[1]}</span>
             </h1>
+          </FadeIn>
+          <FadeIn direction="down">
+            <span className="py-2 px-4 mt-2 rounded bg-black inline-block text-xs font-semibold uppercase tracking-[0.3em] text-gold mb-6">
+              {CLINIC_INFO.locations.join(' • ')}
+            </span>
           </FadeIn>
           <FadeIn delay={0.4}>
             <p className="text-lg md:text-xl text-charcoal/70 max-w-2xl mx-auto mb-10 leading-relaxed font-light">
@@ -130,7 +130,7 @@ export const Home = () => {
               <div className="absolute -bottom-10 -right-10 w-64 h-64 bg-gold/10 rounded-full blur-3xl -z-10" />
             </div>
           </FadeIn>
-          
+
           <FadeIn direction="right">
             <h2 className="font-serif text-4xl md:text-5xl text-charcoal mb-8">
               The Art of <br /> Subtle Enhancement
@@ -138,7 +138,7 @@ export const Home = () => {
             <p className="text-charcoal/70 text-lg mb-10 leading-relaxed font-light">
               We believe the best work is the work that goes unnoticed. Our philosophy centers on "The Invisible Touch"—enhancing your natural features while maintaining the integrity of your unique expression.
             </p>
-            
+
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-8">
               <div className="flex gap-4">
                 <div className="w-12 h-12 bg-nude rounded-full flex items-center justify-center text-gold shrink-0">
