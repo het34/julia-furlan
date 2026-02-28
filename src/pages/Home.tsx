@@ -166,7 +166,7 @@ export const Home = () => {
       {/* CTA Section */}
       <section className="py-32 px-6 text-center">
         <FadeIn>
-          <div className="max-w-3xl mx-auto bg-charcoal p-16 md:p-24 rounded-[3rem] text-nude relative overflow-hidden">
+          <div className="max-w-3xl mx-auto bg-charcoal px-8 py-16 md:p-24 rounded-[3rem] text-nude relative overflow-hidden">
             <div className="absolute top-0 right-0 p-10 text-gold/20">
               <Sparkles size={120} />
             </div>
