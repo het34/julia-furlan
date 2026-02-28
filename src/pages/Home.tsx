@@ -27,12 +27,12 @@ export const Home = () => {
               <span className="italic">in {CLINIC_INFO.tagline.split('in')[1]}</span>
             </h1>
           </FadeIn>
-          <FadeIn direction="down">
+          <FadeIn delay={0.4}>
             <span className="py-2 px-4 mt-2 rounded bg-gray-200 inline-block text-xs font-bold uppercase tracking-[0.3em] text-yellow-600 mb-6">
               {CLINIC_INFO.locations.join(' • ')}
             </span>
           </FadeIn>
-          <FadeIn delay={0.4}>
+          <FadeIn delay={0.6}>
             <p className="text-lg md:text-xl text-charcoal/70 max-w-2xl mx-auto mb-10 leading-relaxed font-light">
               Experience the pinnacle of medical precision and artistic vision at {CLINIC_INFO.name}. We reveal your natural radiance through bespoke aesthetic care.
             </p>
