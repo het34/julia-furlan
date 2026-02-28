@@ -28,7 +28,7 @@ export const Home = () => {
             </h1>
           </FadeIn>
           <FadeIn direction="down">
-            <span className="py-2 px-4 mt-2 rounded bg-black inline-block text-xs font-semibold uppercase tracking-[0.3em] text-gold mb-6">
+            <span className="py-2 px-4 mt-2 rounded bg-gray-200 inline-block text-xs font-bold uppercase tracking-[0.3em] text-yellow-600 mb-6">
               {CLINIC_INFO.locations.join(' • ')}
             </span>
           </FadeIn>
